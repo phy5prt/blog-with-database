@@ -15,7 +15,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/blogPostDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://phy5prtAdmin:"+process.env.PASSWORD_ATLASDB+"@cluster0-su305.mongodb.net/blogPostDB", {useNewUrlParser: true});
 
 // const Schema = mongoose.Schema;
 // const blogSchema = new Schema({
