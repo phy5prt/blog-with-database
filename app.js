@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
 
-const homeStartingContent = "This blog website uses node.js, atlas mongodb database and ejs for templates and partials. You can add blog posts with the /compose route";
+const homeStartingContent = " You can add blog posts with the /compose route. The post are accessible through their title as the url. They are automatically added to the home page as well. This blog website uses node.js, atlas mongodb database and ejs for templates and partials. The data currently provided is some information from my CV rather than daily blog material.";
 const aboutContent = "I've made this website along with several other websites, apps and software as part of my employment portfolio";
 const contactContent = "You can contact me on my contact page on my portfolio website through the contact page or using my contact details on my portfolio site";
 
