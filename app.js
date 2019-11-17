@@ -10,10 +10,20 @@ const homeStartingContent = " You can add blog posts with the /compose route. Th
 const aboutContent = "I've made this website along with several other websites, apps and software as part of my employment portfolio";
 const contactContent = "You can contact me on my contact page on my portfolio website through the contact page or using my contact details on my portfolio site";
 
+
+
+
+
+
+
+
 const app = express();
+
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
+
 
 mongoose.connect("mongodb+srv://phy5prtAdmin:"+process.env.PASSWORD_ATLASDB+"@cluster0-su305.mongodb.net/blogPostDB", {useNewUrlParser: true});
 
@@ -105,6 +115,8 @@ const requestedTitle = req.params.postName;
 
 
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
-});
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port);
