@@ -7,15 +7,6 @@ the title and first bit of text appears on the main page with a link to the whol
 https://arcane-savannah-25231.herokuapp.com/
 
 
-
-
-
-
-
-
-
-
-
 This is my main portfolio website. It is accessible at https://phy5prt.github.io/BootstrapPortfolioWebsite/
 
 This Website features: Simple animations for a little movement and colour. It is mobile friendly and easy to use. It has a contact page with a contact form using dataFire SaaS as a backend service utilising gmail api. It is just a clean, simple and professional site.
@@ -24,7 +15,9 @@ My creative site is accessible at https://lit-escarpment-48431.herokuapp.com/ it
 
 ---------About Me and my repos-------
 
-Hi my name is Phil Tate. I've taken a career break to learn the skills I need to be a software developer. These repos are of projects I've made.
+Hi my name is Phil Tate. I am a software developer. These are repos of personal projects I've made.
+
+My CV is available at: https://github.com/phy5prt/CV
 
 I have two portfolio websites:
 
